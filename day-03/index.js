@@ -71,5 +71,24 @@ console.log("Cow" && "Buffalo"); // returns the second value if the first value 
 console.log("Cow" || "Buffalo"); // returns the first value if it is true
 console.log(!true); // returns the opposite of the value
 
-op1 ?? op2; // nullish coalescing operator
+// op1 ?? op2; // nullish coalescing operator
 // it returns the right-hand side operand if the left-hand side operand is null or undefined.
+
+console.log("*** Conditional (ternary) Operators ***");
+
+let age = 24;
+console.log(age >= 60 ? "Senior Citizen" : "Non-senior Citizen");
+ 
+
+console.log("*** Bitwise Operators ***"); 
+
+// the operands are treated as 32 bits as 0s and 1s
+/* example:
+
+ 10 in decimal
+ 10 in 32 bit representation of 0 and 1   
+          8 4 2 1 0
+          1 0 1 0 0  
+*/
+
+// & - bitwise AND  | - bitwise OR  ^  ~ << >>  
